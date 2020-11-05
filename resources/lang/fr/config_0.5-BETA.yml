@@ -13,11 +13,11 @@ Messages:
     # {HONEYLEVEL} - Honey level in hive.
     # {BEES} - Amount of bees.
     # {MAXHONEYLEVEL} - Always replaced with 5.
-    Message: "&e&lMiel niveau: &b&l{HONEYLEVEL}/{MAXHONEYLEVEL} &f&l- &e&lAbaille: &b&l{BEES} &c❤"
+    Message: "&e&lNiveau de miel: &b&l{HONEYLEVEL}/{MAXHONEYLEVEL} &f&l- &e&lAbaille: &b&l{BEES} &c❤"
   #Sent when right clicking a beehive or bee nest item in hand.
   Hive-item-info:
     Action-bar: true
-    Message: "&e&lMiel niveau: &b&l{HONEYLEVEL}/{MAXHONEYLEVEL} &f&l- &e&lAbaille: &b&l{BEES} &c❤"
+    Message: "&e&lNiveau de miel: &b&l{HONEYLEVEL}/{MAXHONEYLEVEL} &f&l- &e&lAbaille: &b&l{BEES} &c❤"
   Bee-info:
     Action-bar: true
     Message: "&e&lA du nectar: {NECTAR} &f&l- &e&lA une ruche: {HIVE} &f&l- &e&lA des fleurs: {FLOWER} &f&l- &e&lA une piqûre: {STING}"
@@ -85,7 +85,7 @@ Options:
   Lore:
     Enabled: true
     Message:
-      - "&7Miel level: &6{HONEYLEVEL}&7/&65"
+      - "&7Niveau de miel: &6{HONEYLEVEL}&7/&65"
       - "&7Abaille: &6{BEES}"
       - ""
       - "&9Généré par BetterBees."
